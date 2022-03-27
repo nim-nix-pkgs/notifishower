@@ -11,6 +11,7 @@
   inputs.src-notifishower-v0_5_0.ref   = "refs/tags/v0.5.0";
   inputs.src-notifishower-v0_5_0.owner = "PMunch";
   inputs.src-notifishower-v0_5_0.repo  = "notifishower";
+  inputs.src-notifishower-v0_5_0.dir   = "";
   inputs.src-notifishower-v0_5_0.type  = "github";
   
   inputs."imlib2".owner = "nim-nix-pkgs";

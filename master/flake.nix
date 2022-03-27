@@ -11,6 +11,7 @@
   inputs.src-notifishower-master.ref   = "refs/heads/master";
   inputs.src-notifishower-master.owner = "PMunch";
   inputs.src-notifishower-master.repo  = "notifishower";
+  inputs.src-notifishower-master.dir   = "";
   inputs.src-notifishower-master.type  = "github";
   
   inputs."imlib2".owner = "nim-nix-pkgs";
