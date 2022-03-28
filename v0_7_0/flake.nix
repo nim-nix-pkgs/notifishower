@@ -11,7 +11,6 @@
   inputs.src-notifishower-v0_7_0.ref   = "refs/tags/v0.7.0";
   inputs.src-notifishower-v0_7_0.owner = "PMunch";
   inputs.src-notifishower-v0_7_0.repo  = "notifishower";
-  inputs.src-notifishower-v0_7_0.dir   = "";
   inputs.src-notifishower-v0_7_0.type  = "github";
   
   inputs."imlib2".owner = "nim-nix-pkgs";
@@ -21,6 +20,14 @@
   inputs."imlib2".type  = "github";
   inputs."imlib2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."imlib2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/pmunch/x11".owner = "nim-nix-pkgs";
+  inputs."github.com/pmunch/x11".ref   = "master";
+  inputs."github.com/pmunch/x11".repo  = "github.com/pmunch/x11";
+  inputs."github.com/pmunch/x11".dir   = "";
+  inputs."github.com/pmunch/x11".type  = "github";
+  inputs."github.com/pmunch/x11".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/pmunch/x11".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."npeg".owner = "nim-nix-pkgs";
   inputs."npeg".ref   = "master";

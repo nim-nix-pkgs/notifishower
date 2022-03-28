@@ -11,7 +11,6 @@
   inputs.src-notifishower-master.ref   = "refs/heads/master";
   inputs.src-notifishower-master.owner = "PMunch";
   inputs.src-notifishower-master.repo  = "notifishower";
-  inputs.src-notifishower-master.dir   = "";
   inputs.src-notifishower-master.type  = "github";
   
   inputs."imlib2".owner = "nim-nix-pkgs";
@@ -21,6 +20,14 @@
   inputs."imlib2".type  = "github";
   inputs."imlib2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."imlib2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/pmunch/x11".owner = "nim-nix-pkgs";
+  inputs."github.com/pmunch/x11".ref   = "master";
+  inputs."github.com/pmunch/x11".repo  = "github.com/pmunch/x11";
+  inputs."github.com/pmunch/x11".dir   = "";
+  inputs."github.com/pmunch/x11".type  = "github";
+  inputs."github.com/pmunch/x11".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/pmunch/x11".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."npeg".owner = "nim-nix-pkgs";
   inputs."npeg".ref   = "master";
